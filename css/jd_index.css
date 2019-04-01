@@ -1,0 +1,141 @@
+.layout {
+  width: 100%;
+  min-width: 320px;
+  max-width: 640px;
+  height: 1000px;
+  margin: 0 auto;
+  background-color: #ccc;
+}
+
+.layout .jd_header {
+  width: 100%;
+  height: 40px;
+  max-width: 640px;
+  background-color: rgba(233, 35, 34, 0);
+  position: fixed;
+  z-index: 998;
+}
+
+.layout .jd_header > .jd_logo {
+  width: 58px;
+  height: 26px;
+  background-image: url("../images/jd-sprites.png");
+  background-size: 200px 200px;
+  background-position: 0px -107px;
+  position: absolute;
+  top: 7px;
+  left: 10px;
+}
+
+.layout .jd_header > .jd_login {
+  width: 60px;
+  height: 40px;
+  color: #fff;
+  line-height: 40px;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.layout .jd_header > form {
+  width: 100%;
+  height: 40px;
+  padding: 0px 60px 0 80px;
+}
+
+.layout .jd_header > form > input {
+  width: 100%;
+  margin-top: 5px;
+  height: 30px;
+  border-radius: 15px;
+  padding-left: 35px;
+}
+
+.layout .jd_header > form::before {
+  content: '';
+  width: 23px;
+  height: 26px;
+  background-image: url("../images/jd-sprites.png");
+  background-size: 200px 200px;
+  background-position: -58px -106px;
+  position: absolute;
+  left: 90px;
+  top: 7px;
+}
+
+.layout .jd_banner {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.layout .jd_banner > .jd_bannerImg {
+  width: 800%;
+}
+
+.layout .jd_banner > .jd_bannerImg > li {
+  width: 12.5%;
+  float: left;
+}
+
+.layout .jd_banner > .jd_bannerImg > li > a {
+  width: 100%;
+  display: block;
+}
+
+.layout .jd_banner > .jd_bannerImg > li > a > img {
+  width: 100%;
+  display: block;
+}
+
+.layout .jd_banner > .jd_bannerIn {
+  position: absolute;
+  left: 50%;
+  bottom: 5px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.layout .jd_banner > .jd_bannerIn > li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  float: left;
+  margin-left: 10px;
+}
+
+.layout .jd_banner > .jd_bannerIn > li.active {
+  background-color: #fff;
+}
+
+.layout .jd_banner > .jd_bannerIn > li:nth-of-type(1) {
+  margin-left: 0px;
+}
+
+.layout .jd_nav {
+  width: 100%;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.layout .jd_nav li {
+  width: 25%;
+  float: left;
+  text-align: center;
+}
+
+.layout .jd_nav li img {
+  width: 40%;
+}
+
+.layout .jd_nav li p {
+  line-height: 25px;
+  font-size: 14px;
+}
+
+.layout .jd_nav li:nth-last-of-type(-n+4) {
+  margin-top: 25px;
+}
+/*# sourceMappingURL=jd_index.css.map */
